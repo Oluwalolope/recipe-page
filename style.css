@@ -1,0 +1,93 @@
+:root {
+    --clr-White: hsl(0, 0%, 100%);
+    --clr-Rose-White: hsl(330, 100%, 98%);
+    --clr-Eggshell: hsl(30, 54%, 90%);
+    --clr-Light-Grey: hsl(30, 18%, 87%);
+    --clr-Wenge-Brown: hsl(30, 10%, 34%);
+    --clr-Dark-Charcoal: hsl(24, 5%, 18%);
+    --clr-Nutmeg: hsl(14, 45%, 36%);
+    --clr-Light-Raspberry: hsla(332, 51%, 32%, 0.1);
+    --clr-Dark-Raspberry: hsl(332, 51%, 32%);
+}
+
+body {
+    margin: 0;
+    background-color: var(--clr-Eggshell);
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    width: min(100%, 780px);
+    margin-inline: auto;
+    background-color: var(--clr-White);
+}
+
+.container > *:not(img) {
+    margin-inline: 1rem;
+}
+
+h1{
+    color: var(--clr-Dark-Charcoal);
+}
+
+h2{
+    color: var(--clr-Nutmeg);
+}
+
+h3{
+    color: var(--clr-Dark-Raspberry);
+}
+
+.prep--time {
+    background-color: var(--clr-Light-Raspberry);
+    border-radius: 8px;
+    padding: .5rem;
+}
+
+.prep--time ul li::marker{
+    color: var(--clr-Dark-Raspberry);
+}
+
+li {
+    color: var(--clr-Wenge-Brown);
+    padding-bottom: .5rem;
+}
+
+.nutrients {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid var(--clr-Light-Grey);
+    padding-left: 1rem;
+}
+.nutrients:last-of-type {
+    border-bottom: none;
+}
+
+.metric {
+    font-weight: bold;
+    color: var(--clr-Nutmeg);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%)
+}
+
+@media (width > 768px) {
+    body {
+        margin-block: 2.5rem;
+    }
+    .container {
+        border-radius: 2.75rem;
+        padding: 2rem;
+    }
+    img {
+        border-radius: .75rem;
+    }
+}
