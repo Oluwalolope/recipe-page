@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'young-serif';
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
 :root {
     --clr-White: hsl(0, 0%, 100%);
     --clr-Rose-White: hsl(330, 100%, 98%);
@@ -8,6 +17,8 @@
     --clr-Nutmeg: hsl(14, 45%, 36%);
     --clr-Light-Raspberry: hsla(332, 51%, 32%, 0.1);
     --clr-Dark-Raspberry: hsl(332, 51%, 32%);
+    --ff-header: 'young-serif', sans-serif;
+    --ff-body: 'Outfit', sans-serif;
 }
 
 body {
@@ -31,20 +42,28 @@ img {
 
 h1{
     color: var(--clr-Dark-Charcoal);
+    font-family: var(--ff-header);
 }
 
 h2{
     color: var(--clr-Nutmeg);
+    font-family: var(--ff-header);
 }
 
 h3{
     color: var(--clr-Dark-Raspberry);
+    font-family: var(--ff-body);
+}
+
+p {
+    font-family: var(--ff-body);
 }
 
 .prep--time {
     background-color: var(--clr-Light-Raspberry);
     border-radius: 8px;
     padding: .5rem;
+    font-family: var(--ff-body);
 }
 
 .prep--time ul li::marker{
@@ -54,10 +73,12 @@ h3{
 li {
     color: var(--clr-Wenge-Brown);
     padding-bottom: .5rem;
+    font-family: var(--ff-body);
 }
 
 .nutrients {
     display: grid;
+    font-family: var(--ff-body);
     grid-template-columns: 1fr 1fr;
     border-bottom: 1px solid var(--clr-Light-Grey);
     padding-left: 1rem;
@@ -73,7 +94,8 @@ li {
 
 .attribution { 
     font-size: 11px; 
-    text-align: center
+    text-align: center;
+    font-family: var(--ff-body);
 }
 .attribution a { 
     color: hsl(228, 45%, 44%)
