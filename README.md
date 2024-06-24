@@ -1,104 +1,80 @@
-# Frontend Mentor - Recipe page solution
+# Omelette Recipe Website
 
-This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+## Project Overview
 
-## Table of contents
+This project is a simple static website created to showcase a basic recipe for an omelette. It includes information on ingredients, nutrients, preparation time, and the recipe itself. The site is built using Semantic HTML and CSS, following a mobile-first workflow to ensure optimal performance and user experience across all devices.
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+## Features
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+- **Responsive Design**: The site is designed with a mobile-first approach, ensuring it works well on smartphones, tablets, and desktops.
+- **Semantic HTML**: Utilizes HTML5 semantic elements to improve the readability and accessibility of the code.
+- **CSS Styling**: Custom CSS is used for styling, ensuring a clean and appealing user interface.
+- **Recipe Details**: Displays detailed information about the omelette recipe, including ingredients, nutrients, preparation time, and step-by-step instructions.
 
-## Overview
+## Technologies Used
 
-### Screenshot
+- **HTML5**: For structuring the content.
+- **CSS3**: For styling the content.
 
-![](./screenshot.jpg)
+## Getting Started
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+To view or modify the project, follow these steps:
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+### Prerequisites
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+You will need a modern web browser (such as Chrome, Firefox, Safari, or Edge) to view the site. To modify the site, you will need a code editor (such as VSCode, Sublime Text, or Atom).
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+### Viewing the Site
 
-### Links
+1. Clone the repository to your local machine using the following command:
+   ```bash
+   git clone https://github.com/yourusername/omelette-recipe-website.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd omelette-recipe-website
+   ```
+3. Open the `index.html` file in your web browser.
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+### Modifying the Site
 
-## My process
+1. Open the project directory in your code editor.
+2. Modify the HTML and CSS files as needed.
+3. Save your changes and refresh the `index.html` file in your web browser to see the updates.
 
-### Built with
+## Project Structure
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+omelette-recipe-website/
+├── index.html
+├── styles.css
+└── assets/
+    ├── images/
+    └── fonts/
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+- **index.html**: The main HTML file containing the structure of the website.
+- **styles.css**: The CSS file containing the styles for the website.
+- **assets/images/**: A directory for storing images used on the website (if any).
+- **assets/fonts/**: A directory for storing font files used on the website (if any).
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+## Contributing
 
-### Continued development
+If you would like to contribute to the project, feel free to fork the repository and submit a pull request with your changes. Please ensure your code follows best practices and is well-documented.
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+## License
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
-### Useful resources
+## Acknowledgements
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+The design and inspiration for this project were provided by [Frontend Mentor](https://www.frontendmentor.io).
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+## Contact
 
-## Author
+For any questions or feedback, please contact [lopeadeleye@outlook.com].
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+---
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Thank you for checking out the Omelette Recipe Website! Enjoy cooking!
+```
